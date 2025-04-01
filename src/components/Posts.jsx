@@ -16,7 +16,7 @@ const Posts = ({token, user}) => {
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                const response = await fetch("https://sore-basilisk-wpierce-f56380ff.koyeb.app/posts", {
+                const response = await fetch("https://blog-api-tjau.onrender.com/posts", {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",
@@ -39,7 +39,7 @@ const Posts = ({token, user}) => {
 
     const togglePublished = async (post) => {
         try {
-            const response = await fetch(`https://sore-basilisk-wpierce-f56380ff.koyeb.app/posts/${post.id}`, {
+            const response = await fetch(`https://blog-api-tjau.onrender.com/posts/${post.id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",

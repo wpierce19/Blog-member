@@ -16,7 +16,7 @@ const Login = ({setUser, setToken}) => {
         setIsSubmitting(true);
         try {
             const response = await fetch (
-                `https://sore-basilisk-wpierce-f56380ff.koyeb.app/login`,
+                `https://blog-api-tjau.onrender.com/login`,
                 {
                     method: "POST",
                     headers: {

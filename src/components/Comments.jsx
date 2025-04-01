@@ -46,7 +46,7 @@ const Comments = ({post, postId, token})  => {
         const TOKEN = localStorage.getItem("token");
         try {
             const response = await fetch (
-                `https://sore-basilisk-wpierce-f56380ff.koyeb.app/posts/comments/${commentId}`,
+                `https://blog-api-tjau.onrender.com/posts/comments/${commentId}`,
                 {
                     method: "DELETE",
                     headers: {
