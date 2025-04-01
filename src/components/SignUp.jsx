@@ -46,7 +46,7 @@ const SignUp = () => {
                     name="name"
                     placeholder="Fullname"
                     aria-label="Fullname"
-                    autoComplete="email"
+                    autoComplete="name"
                     value={newUser.name}
                     onChange={(e) => 
                         setNewUser((prev) => ({...prev, name: e.target.value}))
