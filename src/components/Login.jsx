@@ -34,7 +34,7 @@ const Login = ({setUser, setToken}) => {
             }
             const data = await response.json();
             try {
-                const userResponse = await fetch(`https://sore-basilisk-wpierce-f56380ff.koyeb.app/user`, {
+                const userResponse = await fetch(`https://blog-api-tjau.onrender.com/user`, {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",

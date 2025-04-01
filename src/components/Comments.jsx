@@ -16,7 +16,7 @@ const Comments = ({post, postId, token})  => {
         setIsSubmitting(true);
         try {
             const response = await fetch (
-                `https://sore-basilisk-wpierce-f56380ff.koyeb.app/posts/${postId}/comments`,
+                `https://blog-api-tjau.onrender.com/posts/${postId}/comments`,
                 {
                     method: "POST",
                     headers: {

@@ -16,7 +16,7 @@ const Post = ({token}) => {
     useEffect(() => {
         const fetchPost = async () => {
             try {
-                const response = await fetch(`https://sore-basilisk-wpierce-f56380ff.koyeb.app/posts/${postId}`, {
+                const response = await fetch(`https://blog-api-tjau.onrender.com/posts/${postId}`, {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",

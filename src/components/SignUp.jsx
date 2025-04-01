@@ -16,7 +16,7 @@ const SignUp = () => {
         e.preventDefault();
         setIsSubmitting(true);
         try {
-            const response = await fetch("https://sore-basilisk-wpierce-f56380ff.koyeb.app/sign-up", {
+            const response = await fetch("https://blog-api-tjau.onrender.com/sign-up", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
