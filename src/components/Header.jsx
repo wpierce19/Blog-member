@@ -19,7 +19,7 @@ const Header = ({user, setUser, setToken}) => {
                     <li>
                         <Link to="/" className="mainLogo">
                             <MainLogo />
-                            Insert website Name
+                            Idea Forge
                         </Link>
                     </li>
                 </ul>

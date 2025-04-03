@@ -5,7 +5,7 @@ const Home = () => {
         <>
             <section className="container-pico">
                 <section>
-                    <h2>Welcome to your (Insert website name here) Dashboard!</h2>
+                    <h2>Welcome to your Idea Forge Dashboard!</h2>
                     <p>
                         Insert a couple sentences about what dashboard is about
                     </p>
@@ -15,23 +15,23 @@ const Home = () => {
                 <h3>Key Features</h3>
                 <ul>
                     <li>
-                        Insert feature
+                        Rich easy to use text editor
                     </li>
                     <li>
-                        Insert feature
+                        Categorize your posts and schedule content for future publishing
                     </li>
                     <li>
-                        Insert Feature
+                        Stay up-to date about all the latest topics in the tech field!
                     </li>
                     <li>
-                        Ensure user that their content is safe
+                        Enjoy knowing that your data will be kept safe with our secure hosting.
                     </li>
                 </ul>
             </section>
             <section>
                 <h3>Sign Up Today!</h3>
                 <p>
-                    Insert a motivation on why they should signup
+                    Use our custom tailored tools to help express your mind to the whole world!
                 </p>
                 <Link role="button" to="/sign-up">
                     Become a Member &nbsp;&#10140;
