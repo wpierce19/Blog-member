@@ -7,7 +7,7 @@ const Home = () => {
                 <section>
                     <h2>Welcome to your Idea Forge Dashboard!</h2>
                     <p>
-                        Insert a couple sentences about what dashboard is about
+                        A dashboard to allow you to easily track posts/comments and to easily write in depth content using our rich text editor.
                     </p>
                 </section>
             </section>
